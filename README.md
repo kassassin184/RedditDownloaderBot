@@ -84,5 +84,5 @@ export ALLOWED_USERS=1,2,3
 You can forbid the bot to download NSFW posts. To do so, set this environment variable:
 
 ```bash
-export DENY_NSFW=true
+export
 ```
