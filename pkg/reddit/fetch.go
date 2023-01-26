@@ -16,7 +16,7 @@ import (
 )
 
 // If this variable is true, it means that we don't allow nsfw posts to be downloaded
-var denyNsfw = util.ParseEnvironmentVariableBool("DENY_NSFW")
+var denyNsfw = util.ParseEnvironmentVariableBool
 
 // This error is returned if NSFW posts are disabled via denyNsfw and a nsfw post is requested
 var nsfwNotAllowedErr = &FetchError{
