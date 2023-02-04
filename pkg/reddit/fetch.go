@@ -19,7 +19,7 @@ import (
 var denyNsfw = util.ParseEnvironmentVariableBool("DENY_NSFW")
 
 // This error is returned if NSFW posts are disabled via denyNsfw and a nsfw post is requested
-var nsfwNotAllowedErr = &FetchError{
+var nsfwNotAllowedErr = &FetchError{DENY_NSFW=False
 	NormalError: "",
 	BotError:    "NSFW posts are disabled.",
 }
